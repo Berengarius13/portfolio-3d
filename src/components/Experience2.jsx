@@ -69,7 +69,7 @@ export const Experience2 = () => {
       }}
     >
       <ambientLight intensity={0.5} />
-      <Environment preset="sunset" />
+      {/* <Environment preset="sunset" /> */}
       {/* Use camera controls to edit the camera enterance in world*/}
       {(
         <CameraControls
