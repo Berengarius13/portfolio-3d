@@ -165,7 +165,7 @@ const JourneyStage = ({
         <MeshPortalMaterial ref={portalMaterial} side={THREE.DoubleSide}>
           {/* Set intensity of light inside portal material */}
           <ambientLight intensity={0.8}  />
-          <Environment preset="sunset" />
+          {/* <Environment preset="sunset" /> */}
           {/* {children} */}
           <mesh>
             <sphereGeometry args={[5, 64, 64]} />
