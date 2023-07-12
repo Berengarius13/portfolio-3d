@@ -114,7 +114,7 @@ const AboutSection = (props) => {
 
 const skills = [
 {
-    title: "Dats Structures and Algorithms",
+    title: "Data Structures and Algorithms",
     level: 90,
 },
 {
